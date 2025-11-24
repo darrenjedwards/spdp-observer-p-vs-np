@@ -1,0 +1,3 @@
+block_scheme,gadget_radius,holo_basis,Pi_plus_variant,num_wins
+layered-wires(r=1),1,diag,A,4
+time×tape-tiles(Δ=1),1,diag,A,3

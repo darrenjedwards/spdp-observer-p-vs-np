@@ -1,0 +1,11 @@
+suite,n,spdp_rank,spd_rank,sqrt_n,k,samples,time_sec
+spdp_vs_spd,46,74,15,7,4,74,2936.8
+spdp_vs_spd,48,72,13,7,4,72,3033.79
+spdp_vs_spd,50,70,12,8,4,70,3324.39
+spdp_vs_spd,52,68,12,8,4,68,3652.95
+spdp_vs_spd,54,66,13,8,4,66,3983.34
+spdp_vs_spd,56,64,15,8,4,64,4314.98
+spdp_vs_spd,58,62,14,8,4,62,4638.6
+spdp_vs_spd,60,60,15,8,4,60,4970.91
+spdp_vs_spd,62,58,13,8,4,58,5264.44
+spdp_vs_spd,64,56,14,8,4,56,5676.06

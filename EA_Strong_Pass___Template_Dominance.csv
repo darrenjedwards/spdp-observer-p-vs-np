@@ -1,0 +1,4 @@
+,block_scheme,gadget_radius,holo_basis,wins
+0,layered-wires(r=1),1,diag,4
+1,time×tape-tiles(Δ=1),1,diag,2
+2,time×tape-tiles(Δ=2),1,diag,1

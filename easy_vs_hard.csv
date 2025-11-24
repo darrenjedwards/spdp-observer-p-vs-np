@@ -1,0 +1,8 @@
+suite,n,add_rank,perm_rank,sqrt_n,k,samples,time_sec
+easy_vs_hard,46,74,0,7,4,74,28421.01
+easy_vs_hard,48,72,0,7,4,72,33189.53
+easy_vs_hard,50,70,0,8,4,70,37676.29
+easy_vs_hard,52,68,0,8,4,68,43235.33
+easy_vs_hard,54,66,0,8,4,66,48905.8
+easy_vs_hard,56,64,0,8,4,64,54767.85
+easy_vs_hard,58,62,0,8,4,62,61226.53

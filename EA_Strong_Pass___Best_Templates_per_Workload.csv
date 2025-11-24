@@ -1,0 +1,8 @@
+workload,class,block_scheme,gadget_radius,holo_basis,Pi_plus_variant,cross_edges,deg_max,best_cew,rank_proxy,passes_equiv,k_param,ell_param
+NC1-demo,nc1,layered-wires(r=1),1,diag,A,6,5,1.0,1.532,True,2,2
+ROBP-demo,robp,time×tape-tiles(Δ=1),1,diag,A,6,5,1.0,1.511,True,2,2
+DP-LCS-mini,dp,time×tape-tiles(Δ=2),1,diag,A,6,5,1.0,1.527,True,2,2
+Polylog-DTM-toy,pldtm,time×tape-tiles(Δ=1),1,diag,A,6,5,1.0,1.535,True,2,2
+Balanced-Parens,nc1,layered-wires(r=1),1,diag,A,6,5,1.0,1.532,True,2,2
+FFT-slice,nc1,layered-wires(r=1),1,diag,A,6,5,1.0,1.549,True,2,2
+Sorting-Network-slice,nc1,layered-wires(r=1),1,diag,A,6,5,1.0,1.544,True,2,2

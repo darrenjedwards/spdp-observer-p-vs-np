@@ -1,0 +1,3 @@
+workload,run,final_best_cew,final_best_spdp,csv,best_genome_json
+NC1-demo-n64,0,2,155,/mnt/data/ea_log_quick_NC1-demo-n64_r0.csv,/mnt/data/best_genome_quick_NC1-demo-n64_r0.json
+ROBP-demo-n64-w8,0,1,823,/mnt/data/ea_log_quick_ROBP-demo-n64-w8_r0.csv,/mnt/data/best_genome_quick_ROBP-demo-n64-w8_r0.json

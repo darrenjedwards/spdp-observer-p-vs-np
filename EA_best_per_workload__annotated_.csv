@@ -1,0 +1,8 @@
+workload,class,block_scheme,gadget_radius,holo_basis,pi_plus_variant,best_cew,rank_proxy,deg_max,cross_edges,passes_equiv,template_sig,template_signature
+NC1-demo,nc1,layered-wires(r=1),1,diag,A,1,2.528,5,5,True,layered-wires(r=1)|1|diag|A|True,layered-wires(r=1) | r=1 | diag | Pi+=A | eq=T
+Balanced-Parens,nc1,layered-wires(r=1),1,diag,A,1,2.405,5,5,True,layered-wires(r=1)|1|diag|A|True,layered-wires(r=1) | r=1 | diag | Pi+=A | eq=T
+FFT-slice,nc1,layered-wires(r=1),1,diag,A,1,2.591,5,5,True,layered-wires(r=1)|1|diag|A|True,layered-wires(r=1) | r=1 | diag | Pi+=A | eq=T
+SortingNetwork-slice,nc1,layered-wires(r=1),1,diag,A,1,2.566,5,5,True,layered-wires(r=1)|1|diag|A|True,layered-wires(r=1) | r=1 | diag | Pi+=A | eq=T
+ROBP-demo,robp,time×tape-tiles(Δ=1),1,diag,A,1,2.453,5,5,True,time×tape-tiles(Δ=1)|1|diag|A|True,time×tape-tiles(Δ=1) | r=1 | diag | Pi+=A | eq=T
+Polylog-DTM-toy,robp,time×tape-tiles(Δ=1),1,diag,A,1,2.569,5,5,True,time×tape-tiles(Δ=1)|1|diag|A|True,time×tape-tiles(Δ=1) | r=1 | diag | Pi+=A | eq=T
+DP-LCS-mini,robp,time×tape-tiles(Δ=1),1,diag,A,1,2.583,5,5,True,time×tape-tiles(Δ=1)|1|diag|A|True,time×tape-tiles(Δ=1) | r=1 | diag | Pi+=A | eq=T
