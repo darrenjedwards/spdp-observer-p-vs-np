@@ -41,6 +41,6 @@ bash Copy code pip install cupy-cuda11x # choose correct wheel for your CUDA Mos
 
 📣 Citation If this code or data is useful in your research, please cite:
 
-@article{Edwards2025SPDPObserver, title = {Toward P̸ = NP: An Observer-Theoretic Separation via SPDP Rank and Equivalence to ZFC Foundations within N-Frame}, author = {Edwards, Darren J.}, year = {2025}, note = {Code and data: https://github.com/DarrenEdwards111/spdp-observer-p-vs-np} } (Replace with arXiv/journal citation when available.)
+Edwards, D. (2025). Toward P≠NP: An Observer-Theoretic Separation via SPDP Rank and a ZFC-Equivalent Foundation within the N-Frame Model. Zenodo. https://doi.org/10.5281/zenodo.17692997
 
 📄 License Released under the MIT License (or your chosen license). See LICENSE.
