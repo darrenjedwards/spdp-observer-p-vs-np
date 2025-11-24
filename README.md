@@ -1,4 +1,4 @@
-spdp-observer-p-vs-np experiemntal psychol tests
+spdp-observer-p-vs-np experimental python tests
 
 The Python scripts are provided largely in template form.
 Please configure the parameters according to your specific use case before execution
