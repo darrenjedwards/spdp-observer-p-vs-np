@@ -1,7 +1,7 @@
 spdp-observer-p-vs-np experimental python tests
 
 The Python scripts are provided largely in template form.
-Please configure the parameters according to your specific use case before execution
+Please configure the parameters according to your specific use case before execution.
 
 This repository contains the code and data behind the SPDP (Shifted Partial Derivative + Projection) framework, the holographic compiler configuration (radius = 1, diagonal basis, Π⁺ = A), and the Evolutionary Algorithm (EA) runs that together support the Global God-Move separation picture. 
 
