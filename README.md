@@ -1,5 +1,47 @@
 spdp-observer-p-vs-np experimental python tests
 
+Note: This is an evolving project. Some files are older legacy files that are no longer used in the main paper. Please see the latest version of the paper on arXiv to see which files are used. Currently these are:
+
+  Core SPDP Implementation
+
+  | File                    | Purpose                                                                     |
+  |-------------------------|-----------------------------------------------------------------------------|
+  | spdp_exact.py           | Reference SPDP rank implementation via Gaussian elimination over F₁,₀₀₀,₀₀₃ |
+  | spdp_pipeline_sanity.py | End-to-end pipeline: circuit → Tseitin → restriction → SPDP rank            |
+  | spdp_all_in_one.py      | Single-file bundle running complete sanity suite                            |
+
+  Specialized Test Scripts
+
+  | File                        | Purpose                                               |
+  |-----------------------------|-------------------------------------------------------|
+  | spdp_permanent.py           | Permanent-family instances (canonical hard benchmark) |
+  | spdp_rank_perm3x3_strong.py | Symbolic SPDP rank for 3×3 permanent                  |
+  | spdp_determinant.py         | 3×3 determinant polynomial                            |
+  | spdp_sparse.py              | Sparse high-degree separable polynomials              |
+  | spdp_chain.py               | Overlapping-support chain tests                       |
+  | spdp_symmetric.py           | Symmetric pairwise polynomials                        |
+  | spdp_emergence_test.py      | Ablation runner with row/column subsampling           |
+  | spdp_backend.py             | Backend adapter for emergence tests                   |
+
+  EA (Evolutionary Algorithm) Data
+
+  | File                                 | Purpose                                                |
+  |--------------------------------------|--------------------------------------------------------|
+  | ea_summary.csv                       | Primary EA results table (all generations/evaluations) |
+  | EA_Strong_Pass_Best_per_workload.csv | Best genomes per workload                              |
+  | EA_Template_Dominance.csv            | Template dominance analysis                            |
+  | ea_summary_digest.py                 | Digest script for EA results                           |
+
+  Output/Data Files
+
+  | File                      | Purpose                                   |
+  |---------------------------|-------------------------------------------|
+  | spdp_pipeline_results.csv | Pipeline validation results               |
+  | easy_vs_hard.csv          | Exponential vs polynomial rank comparison |
+  | spdp_vs_spd.csv           | SPDP vs SPD comparison data               |
+  | core_rules.csv            | Empirical SPDP evaluation vectors         |
+
+
 The Python scripts are provided largely in template form.
 Please configure the parameters according to your specific use case before execution.
 
