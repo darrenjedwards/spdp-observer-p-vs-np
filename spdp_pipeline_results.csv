@@ -1,0 +1,7 @@
+Circuit / family,n,live_vars,profiles,spdp_rank,ceil_sqrt_n,pass
+RandDeg3 (profile-compressed),256,23,4,11,16,✓
+RandDeg3 (profile-compressed),1024,29,5,16,32,✓
+RandDeg3 (profile-compressed),2048,31,4,11,45,✓
+Goldreich-like (profile-compressed),1024,29,5,16,32,✓
+Diagonal (∑ x_i^4),2048,49,49,49,45,×
+perm_{3×3},9,9,9,55,3,×
